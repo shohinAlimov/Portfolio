@@ -1,4 +1,8 @@
 .nav {
+  @media (max-width:768px) {
+    display: none;
+  }
+
   &__list {
     margin: 0;
     padding: 0;
