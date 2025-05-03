@@ -1,23 +1,22 @@
 .header {
-  margin: 0 0 20px 0;
+  background-color: $color-mint-green;
 
   &__wrapper {
-    background-color: #1B1B1B;
-    border: 2px solid #262626;
-    border-radius: 48px;
-    padding: 20px;
-  }
-
-  &__nav {
-    margin: 0;
-    padding: 0;
-    list-style: none;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 15px 0;
+  }
 
-    &-link {
-      color: $color-white;
-    }
+  &__logo,
+  &__portfolio {
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 900;
+  }
+
+  &__portfolio {
+    text-transform: uppercase;
   }
 }
